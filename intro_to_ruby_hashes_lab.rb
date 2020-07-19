@@ -40,13 +40,13 @@ def monopoly_with_third_tier
     three_pieces_owned: 100,
     four_pieces_owned: 200
   }
-  monopoly[:railroads][:rent_in_dollars][:names] = {
+  monopoly[:railroads][:names] = {
     reading_railroad: {},
     pennsylvania_railroad: {},
     b_and_o_railroad: {},
     shortline_railroad: {}
   }
-  
+
   monopoly
 end
 
@@ -67,7 +67,7 @@ def monopoly_with_fourth_tier
     three_pieces_owned: 100,
     four_pieces_owned: 200
   }
-  monopoly[:railroads][:rent_in_dollars][:names] = {
+  monopoly[:railroads][:names] = {
     reading_railroad: {},
     pennsylvania_railroad: {},
     b_and_o_railroad: {},
